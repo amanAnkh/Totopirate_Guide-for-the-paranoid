@@ -133,6 +133,10 @@ A voir les quel sont les mieux
 
 ### 4.2 Restricting su
 
+Weel `The term was derived from the slang phrase big wheel, referring to a person with great power or influence. wikipedia `
+
+Par default su (switch user i gest) tente une connexion au compte root. Nous ne voulons aucun changement de compte si vous ne faite pas partie du group weel. 
+
 Limiter su au group wheel
 `auth required pam_wheel.so use_uid`
 
